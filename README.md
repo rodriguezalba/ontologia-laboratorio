@@ -11,7 +11,7 @@ Ontology for managing chemical substances, laboratory equipment, and experimenta
 - Leire Maleta
 
 ## Repository
-https://github.com/tu-usuario/lab-ontology
+https://github.com/rodriguezalba/lab-ontology
 
 ## License
 CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
@@ -19,5 +19,3 @@ CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 ## Serializations
 - Turtle: https://raw.githubusercontent.com/tu-usuario/lab-ontology/main/lab_ontology_complete.ttl
 - RDF/XML: https://raw.githubusercontent.com/tu-usuario/lab-ontology/main/lab_ontology_complete.rdf
-
-http://localhost:8080/#opts=doc=3;filter_disjoint=false;#file=lab_ontology_complete.ttl
