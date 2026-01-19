@@ -1,0 +1,3375 @@
+{
+  "@context" : {
+    "" : {
+      "@id" : "http://www.owl-ontologies.com/MOP_#0000629"
+    },
+    "CHEBI_76219" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76219"
+    },
+    "CHEBI_35443" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35443"
+    },
+    "CHEBI_232352" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_232352"
+    },
+    "CHEBI_51086" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51086"
+    },
+    "CHEBI_49323" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_49323"
+    },
+    "CHEBI_231911" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_231911"
+    },
+    "CHEBI_83056" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_83056"
+    },
+    "CHEBI_78681" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_78681"
+    },
+    "CHEBI_90845" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_90845"
+    },
+    "CHEBI_23100" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23100"
+    },
+    "CHEBI_48407" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48407"
+    },
+    "CHEBI_232376" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_232376"
+    },
+    "CHEBI_59739" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59739"
+    },
+    "CHEBI_71212" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_71212"
+    },
+    "CHEBI_50412" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50412"
+    },
+    "CHEBI_39011" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39011"
+    },
+    "OBI_0200170" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200170"
+    },
+    "CHEBI_33250" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33250"
+    },
+    "CHEBI_63175" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63175"
+    },
+    "ProtocoloPCR" : {
+      "@id" : "https://w3id.org/def/lab-ontology#ProtocoloPCR"
+    },
+    "CHEBI_52462" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52462"
+    },
+    "CHEBI_48676" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48676"
+    },
+    "CHEBI_138887" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_138887"
+    },
+    "tieneCertificación" : {
+      "@id" : "https://w3id.org/def/lab-ontology#tieneCertificación",
+      "@type" : "@id"
+    },
+    "CHEBI_32730" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32730"
+    },
+    "CHEBI_177023" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_177023"
+    },
+    "CHEBI_63936" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63936"
+    },
+    "CHEBI_52215" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52215"
+    },
+    "CHEBI_33295" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33295"
+    },
+    "CHEBI_46787" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_46787"
+    },
+    "OBI_0002565" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0002565"
+    },
+    "CHEBI_59544" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59544"
+    },
+    "CHEBI_140061" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_140061"
+    },
+    "CHEBI_37527" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37527"
+    },
+    "asociadaA" : {
+      "@id" : "https://w3id.org/def/lab-ontology#asociadaA",
+      "@type" : "@id"
+    },
+    "CHEBI_232409" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_232409"
+    },
+    "CHEBI_60643" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_60643"
+    },
+    "CHEBI_33352" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33352"
+    },
+    "CHEBI_22917" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22917"
+    },
+    "ReactivoNeutro" : {
+      "@id" : "https://w3id.org/def/lab-ontology#ReactivoNeutro"
+    },
+    "CHEBI_77567" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_77567"
+    },
+    "CHEBI_91016" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_91016"
+    },
+    "CHEBI_17654" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17654"
+    },
+    "Class_114" : {
+      "@id" : "http://www.owl-ontologies.com/Ontology1184060740.owl#Class_114"
+    },
+    "CHEBI_195251" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_195251"
+    },
+    "CHEBI_77968" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_77968"
+    },
+    "CHEBI_167165" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_167165"
+    },
+    "CHEBI_25491" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25491"
+    },
+    "credenciales" : {
+      "@id" : "https://w3id.org/def/lab-ontology#credenciales",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "CHEBI_33349" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33349"
+    },
+    "CHEBI_138168" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_138168"
+    },
+    "CHEBI_32759" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32759"
+    },
+    "OBI_0001028" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0001028"
+    },
+    "CHEBI_192269" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_192269"
+    },
+    "CHEBI_27311" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27311"
+    },
+    "CHEBI_72294" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_72294"
+    },
+    "CHEBI_90713" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_90713"
+    },
+    "created" : {
+      "@id" : "http://purl.org/dc/terms/created"
+    },
+    "CHEBI_50407" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50407"
+    },
+    "CHEBI_49020" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_49020"
+    },
+    "CHEBI_138880" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_138880"
+    },
+    "CHEBI_27081" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27081"
+    },
+    "CHEBI_17499" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17499"
+    },
+    "CHEBI_73335" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_73335"
+    },
+    "CHEBI_23354" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23354"
+    },
+    "CHEBI_63064" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63064"
+    },
+    "CHEBI_176574" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_176574"
+    },
+    "CHEBI_50844" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50844"
+    },
+    "CHEBI_132972" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_132972"
+    },
+    "CHEBI_33390" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33390"
+    },
+    "CHEBI_145982" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_145982"
+    },
+    "CHEBI_77178" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_77178"
+    },
+    "CHEBI_76414" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76414"
+    },
+    "CHEBI_35821" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35821"
+    },
+    "CHEBI_167183" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_167183"
+    },
+    "CHEBI_33388" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33388"
+    },
+    "Class_89" : {
+      "@id" : "http://www.owl-ontologies.com/Ontology1184060740.owl#Class_89"
+    },
+    "CHEBI_27998" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27998"
+    },
+    "CHEBI_26220" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26220"
+    },
+    "CHEBI_91139" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_91139"
+    },
+    "IAO_0000231" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000231"
+    },
+    "Class_94" : {
+      "@id" : "http://www.owl-ontologies.com/Ontology1184060740.owl#Class_94"
+    },
+    "CHEBI_33344" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33344"
+    },
+    "CHEBI_35442" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35442"
+    },
+    "CHEBI_28073" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_28073"
+    },
+    "CHEBI_76973" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76973"
+    },
+    "CHEBI_33367" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33367"
+    },
+    "CHEBI_33347" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33347"
+    },
+    "CHEBI_33099" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33099"
+    },
+    "CHEBI_26155" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26155"
+    },
+    "CHEBI_48218" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48218"
+    },
+    "default-namespace" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#default-namespace"
+    },
+    "CHEBI_36710" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36710"
+    },
+    "OBI_0200044" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200044"
+    },
+    "CHEBI_67126" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_67126"
+    },
+    "CHEBI_51377" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51377"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "OBI_0000792" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000792"
+    },
+    "CHEBI_84735" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_84735"
+    },
+    "CHEBI_90742" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_90742"
+    },
+    "CHEBI_48525" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48525"
+    },
+    "CHEBI_33389" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33389"
+    },
+    "CHEBI_23366" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23366"
+    },
+    "CHEBI_39142" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39142"
+    },
+    "hasExactSynonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+    },
+    "CHEBI_144997" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_144997"
+    },
+    "monoisotopic_mass" : {
+      "@id" : "https://w3id.org/chemrof/monoisotopic_mass"
+    },
+    "CHEBI_60603" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_60603"
+    },
+    "CHEBI_156211" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_156211"
+    },
+    "Termociclador" : {
+      "@id" : "https://w3id.org/def/lab-ontology#Termociclador"
+    },
+    "CHEBI_176497" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_176497"
+    },
+    "CHEBI_32721" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32721"
+    },
+    "precision" : {
+      "@id" : "https://w3id.org/def/lab-ontology#precision",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "CHEBI_90991" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_90991"
+    },
+    "CHEBI_66894" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_66894"
+    },
+    "CHEBI_75772" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_75772"
+    },
+    "CHEBI_140982" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_140982"
+    },
+    "CHEBI_75252" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_75252"
+    },
+    "CHEBI_50248" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50248"
+    },
+    "CHEBI_138103" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_138103"
+    },
+    "CHEBI_47958" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_47958"
+    },
+    "CHEBI_140489" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_140489"
+    },
+    "Class_41" : {
+      "@id" : "http://www.owl-ontologies.com/Ontology1184060740.owl#Class_41"
+    },
+    "CHEBI_74236" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_74236"
+    },
+    "CHEBI_50691" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50691"
+    },
+    "CHEBI_192504" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_192504"
+    },
+    "DNAExtractionProcedure" : {
+      "@id" : "http://purl.org/net/SMARTprotocol#DNAExtractionProcedure"
+    },
+    "CHEBI_144998" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_144998"
+    },
+    "CHEBI_23891" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23891"
+    },
+    "CHEBI_51039" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51039"
+    },
+    "CHEBI_67137" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_67137"
+    },
+    "CHEBI_64909" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_64909"
+    },
+    "CHEBI_50847" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50847"
+    },
+    "CHEBI_38706" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38706"
+    },
+    "CHEBI_51076" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51076"
+    },
+    "CHEBI_32723" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32723"
+    },
+    "CHEBI_50249" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50249"
+    },
+    "CHEBI_139609" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_139609"
+    },
+    "CHEBI_149711" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_149711"
+    },
+    "CHEBI_132992" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_132992"
+    },
+    "CHEBI_59844" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59844"
+    },
+    "CHEBI_27214" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27214"
+    },
+    "CHEBI_63908" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63908"
+    },
+    "CHEBI_176570" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_176570"
+    },
+    "CHEBI_138416" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_138416"
+    },
+    "CHEBI_52943" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52943"
+    },
+    "CHEBI_176495" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_176495"
+    },
+    "Certificacion" : {
+      "@id" : "https://w3id.org/def/lab-ontology#Certificacion"
+    },
+    "IAO_0000117" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000117"
+    },
+    "CHEBI_60807" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_60807"
+    },
+    "CHEBI_35845" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35845"
+    },
+    "CHEBI_48706" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48706"
+    },
+    "CHEBI_63248" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63248"
+    },
+    "CHEBI_33361" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33361"
+    },
+    "CHEBI_35522" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35522"
+    },
+    "CHEBI_50780" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50780"
+    },
+    "loteNumero" : {
+      "@id" : "https://w3id.org/def/lab-ontology#loteNumero",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "CHEBI_35472" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35472"
+    },
+    "OBI_0200153" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200153"
+    },
+    "CHEBI_184307" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_184307"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "proximoMantenimiento" : {
+      "@id" : "https://w3id.org/def/lab-ontology#proximoMantenimiento",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "CHEBI_35705" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35705"
+    },
+    "CHEBI_52214" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52214"
+    },
+    "CHEBI_149497" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_149497"
+    },
+    "CHEBI_83057" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_83057"
+    },
+    "Class_59" : {
+      "@id" : "http://www.owl-ontologies.com/Ontology1184060740.owl#Class_59"
+    },
+    "OBI_0200181" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200181"
+    },
+    "CHEBI_37958" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37958"
+    },
+    "CHEBI_35610" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35610"
+    },
+    "CHEBI_39317" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39317"
+    },
+    "OBI_0200175" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200175"
+    },
+    "CHEBI_53121" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53121"
+    },
+    "OBI_0200119" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200119"
+    },
+    "CHEBI_51371" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51371"
+    },
+    "CHEBI_49324" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_49324"
+    },
+    "CHEBI_78248" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_78248"
+    },
+    "CHEBI_79314" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_79314"
+    },
+    "CHEBI_33397" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33397"
+    },
+    "CHEBI_35441" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35441"
+    },
+    "CHEBI_64018" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_64018"
+    },
+    "CHEBI_37337" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37337"
+    },
+    "CHEBI_77307" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_77307"
+    },
+    "CHEBI_35499" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35499"
+    },
+    "CHEBI_50411" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50411"
+    },
+    "CHEBI_196956" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_196956"
+    },
+    "CHEBI_60649" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_60649"
+    },
+    "CHEBI_38324" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38324"
+    },
+    "CHEBI_24430" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24430"
+    },
+    "CHEBI_70998" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_70998"
+    },
+    "CHEBI_166831" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_166831"
+    },
+    "CHEBI_32783" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32783"
+    },
+    "CHEBI_62803" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_62803"
+    },
+    "CHEBI_48355" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48355"
+    },
+    "CHEBI_63673" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63673"
+    },
+    "CHEBI_76968" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76968"
+    },
+    "SpecimenPreparationProcedure" : {
+      "@id" : "http://purl.org/net/SMARTprotocol#SpecimenPreparationProcedure"
+    },
+    "CHEBI_51375" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51375"
+    },
+    "CHEBI_71196" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_71196"
+    },
+    "VisualizaciónGel" : {
+      "@id" : "https://w3id.org/def/lab-ontology#VisualizaciónGel"
+    },
+    "CHEBI_24431" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+    },
+    "CHEBI_15339" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_15339"
+    },
+    "CHEBI_131787" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_131787"
+    },
+    "CHEBI_171664" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_171664"
+    },
+    "CHEBI_50689" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50689"
+    },
+    "CHEBI_65190" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_65190"
+    },
+    "CHEBI_39144" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39144"
+    },
+    "CHEBI_75787" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_75787"
+    },
+    "CHEBI_29306" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_29306"
+    },
+    "CHEBI_33358" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33358"
+    },
+    "CHEBI_38323" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38323"
+    },
+    "CHEBI_24002" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24002"
+    },
+    "CHEBI_35703" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35703"
+    },
+    "CHEBI_83399" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_83399"
+    },
+    "CHEBI_51369" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51369"
+    },
+    "NucleicAcidExtractionProcedure" : {
+      "@id" : "http://purl.org/net/SMARTprotocol#NucleicAcidExtractionProcedure"
+    },
+    "CHEBI_90714" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_90714"
+    },
+    "CHEBI_38070" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38070"
+    },
+    "CHEBI_90415" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_90415"
+    },
+    "CHEBI_59010" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59010"
+    },
+    "CHEBI_132717" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_132717"
+    },
+    "CHEBI_55322" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_55322"
+    },
+    "CHEBI_33281" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33281"
+    },
+    "CHEBI_189675" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_189675"
+    },
+    "CHEBI_39477" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39477"
+    },
+    "CHEBI_48359" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48359"
+    },
+    "Reactivo" : {
+      "@id" : "https://w3id.org/def/lab-ontology#Reactivo"
+    },
+    "OBI_0200140" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200140"
+    },
+    "solubilidadAgua" : {
+      "@id" : "https://w3id.org/def/lab-ontology#solubilidadAgua",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "CHEBI_131359" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_131359"
+    },
+    "CHEBI_51372" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51372"
+    },
+    "CHEBI_36063" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36063"
+    },
+    "CHEBI_234267" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_234267"
+    },
+    "CHEBI_51068" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51068"
+    },
+    "CHEBI_234474" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_234474"
+    },
+    "CHEBI_73416" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_73416"
+    },
+    "utilizadaEn" : {
+      "@id" : "https://w3id.org/def/lab-ontology#utilizadaEn",
+      "@type" : "@id"
+    },
+    "CHEBI_33386" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33386"
+    },
+    "CHEBI_47867" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_47867"
+    },
+    "COB_0000800" : {
+      "@id" : "http://purl.obolibrary.org/obo/COB_0000800"
+    },
+    "CHEBI_33517" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33517"
+    },
+    "CHEBI_63247" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63247"
+    },
+    "CHEBI_77521" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_77521"
+    },
+    "CHEBI_51379" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51379"
+    },
+    "CHEBI_51365" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51365"
+    },
+    "CHEBI_68563" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_68563"
+    },
+    "OBI_0200117" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200117"
+    },
+    "CHEBI_62488" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_62488"
+    },
+    "CHEBI_50906" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50906"
+    },
+    "OBI_0200151" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200151"
+    },
+    "LaboratorySubprocedure" : {
+      "@id" : "http://purl.org/net/SMARTprotocol#LaboratorySubprocedure"
+    },
+    "CHEBI_76720" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76720"
+    },
+    "CHEBI_139044" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_139044"
+    },
+    "CHEBI_73333" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_73333"
+    },
+    "identificador" : {
+      "@id" : "https://w3id.org/def/lab-ontology#identificador",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "CHEBI_38325" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38325"
+    },
+    "CHEBI_77523" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_77523"
+    },
+    "CHEBI_53337" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53337"
+    },
+    "CHEBI_32740" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32740"
+    },
+    "COB_0000005" : {
+      "@id" : "http://purl.obolibrary.org/obo/COB_0000005"
+    },
+    "CHEBI_50370" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50370"
+    },
+    "CHEBI_70982" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_70982"
+    },
+    "CHEBI_232110" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_232110"
+    },
+    "CHEBI_26348" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26348"
+    },
+    "CHEBI_233442" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_233442"
+    },
+    "temperatura" : {
+      "@id" : "https://w3id.org/def/lab-ontology#temperatura",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "CHEBI_83609" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_83609"
+    },
+    "unidad" : {
+      "@id" : "https://w3id.org/def/lab-ontology#unidad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "CHEBI_39277" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39277"
+    },
+    "CHEBI_76967" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76967"
+    },
+    "CHEBI_85012" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_85012"
+    },
+    "CHEBI_90757" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_90757"
+    },
+    "cantidad" : {
+      "@id" : "https://w3id.org/def/lab-ontology#cantidad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "CHEBI_60606" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_60606"
+    },
+    "CHEBI_26157" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26157"
+    },
+    "CHEBI_35195" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35195"
+    },
+    "CHEBI_91015" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_91015"
+    },
+    "CHEBI_33365" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33365"
+    },
+    "nombre" : {
+      "@id" : "https://w3id.org/def/lab-ontology#nombre",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "CHEBI_75050" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_75050"
+    },
+    "CHEBI_50176" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50176"
+    },
+    "Class_91" : {
+      "@id" : "http://www.owl-ontologies.com/Ontology1184060740.owl#Class_91"
+    },
+    "CHEBI_64105" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_64105"
+    },
+    "CHEBI_139584" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_139584"
+    },
+    "CHEBI_143001" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_143001"
+    },
+    "OBI_0200033" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200033"
+    },
+    "CHEBI_16504" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_16504"
+    },
+    "CHEBI_137431" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_137431"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "CHEBI_52633" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52633"
+    },
+    "CHEBI_65254" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_65254"
+    },
+    "IAO_0000112" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000112"
+    },
+    "COB_0000803" : {
+      "@id" : "http://purl.obolibrary.org/obo/COB_0000803"
+    },
+    "CHEBI_50241" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50241"
+    },
+    "CHEBI_141000" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_141000"
+    },
+    "CHEBI_51363" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51363"
+    },
+    "CHEBI_67079" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_67079"
+    },
+    "CHEBI_25943" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25943"
+    },
+    "CHEBI_136860" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_136860"
+    },
+    "Equipo" : {
+      "@id" : "https://w3id.org/def/lab-ontology#Equipo"
+    },
+    "CHEBI_48278" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48278"
+    },
+    "CHEBI_32736" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32736"
+    },
+    "CHEBI_33053" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33053"
+    },
+    "CHEBI_64933" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_64933"
+    },
+    "CHEBI_50857" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50857"
+    },
+    "CHEBI_35842" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35842"
+    },
+    "OBI_0200076" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200076"
+    },
+    "CHEBI_131809" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_131809"
+    },
+    "CHEBI_48356" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48356"
+    },
+    "CHEBI_131495" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_131495"
+    },
+    "CHEBI_82933" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_82933"
+    },
+    "CHEBI_33391" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33391"
+    },
+    "CHEBI_71173" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_71173"
+    },
+    "CHEBI_35473" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35473"
+    },
+    "CHEBI_33348" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33348"
+    },
+    "CHEBI_24852" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24852"
+    },
+    "CHEBI_48705" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48705"
+    },
+    "Class_42" : {
+      "@id" : "http://www.owl-ontologies.com/Ontology1184060740.owl#Class_42"
+    },
+    "CHEBI_64589" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_64589"
+    },
+    "CHEBI_133878" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_133878"
+    },
+    "CHEBI_52210" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52210"
+    },
+    "CHEBI_229692" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_229692"
+    },
+    "IAO_0000234" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000234"
+    },
+    "CHEBI_77746" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_77746"
+    },
+    "CHEBI_49201" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_49201"
+    },
+    "CHEBI_52217" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52217"
+    },
+    "CHEBI_35684" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35684"
+    },
+    "CHEBI_27698" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27698"
+    },
+    "CHEBI_27780" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27780"
+    },
+    "CHEBI_24527" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24527"
+    },
+    "CHEBI_55351" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_55351"
+    },
+    "CHEBI_50926" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50926"
+    },
+    "CHEBI_48318" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48318"
+    },
+    "CHEBI_35475" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35475"
+    },
+    "OBI_0200032" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200032"
+    },
+    "CHEBI_59745" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59745"
+    },
+    "CHEBI_37962" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37962"
+    },
+    "CHEBI_33335" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33335"
+    },
+    "OBI_0200050" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200050"
+    },
+    "CHEBI_55347" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_55347"
+    },
+    "ElectrophoresisProcedure" : {
+      "@id" : "http://purl.org/net/SMARTprotocol#ElectrophoresisProcedure"
+    },
+    "CHEBI_23367" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23367"
+    },
+    "CHEBI_64297" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_64297"
+    },
+    "CHEBI_166909" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_166909"
+    },
+    "CHEBI_64911" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_64911"
+    },
+    "CHEBI_71027" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_71027"
+    },
+    "CHEBI_76976" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76976"
+    },
+    "CHEBI_197449" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_197449"
+    },
+    "notas" : {
+      "@id" : "https://w3id.org/def/lab-ontology#notas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "CHEBI_137811" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_137811"
+    },
+    "CHEBI_5631" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_5631"
+    },
+    "CHEBI_33232" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33232"
+    },
+    "CHEBI_74530" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_74530"
+    },
+    "CHEBI_88295" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_88295"
+    },
+    "CHEBI_32712" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32712"
+    },
+    "CHEBI_53142" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53142"
+    },
+    "Producto" : {
+      "@id" : "https://w3id.org/def/lab-ontology#Producto"
+    },
+    "CHEBI_26519" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26519"
+    },
+    "CHEBI_50137" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50137"
+    },
+    "CHEBI_37955" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37955"
+    },
+    "COB_0000122" : {
+      "@id" : "http://purl.obolibrary.org/obo/COB_0000122"
+    },
+    "CHEBI_134182" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_134182"
+    },
+    "CHEBI_22583" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22583"
+    },
+    "CHEBI_76960" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76960"
+    },
+    "CHEBI_29442" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_29442"
+    },
+    "CHEBI_88184" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_88184"
+    },
+    "CHEBI_27638" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27638"
+    },
+    "COB_0000056" : {
+      "@id" : "http://purl.obolibrary.org/obo/COB_0000056"
+    },
+    "CHEBI_35221" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35221"
+    },
+    "OBI_0200043" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200043"
+    },
+    "CHEBI_33355" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33355"
+    },
+    "CHEBI_49882" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_49882"
+    },
+    "CHEBI_50779" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50779"
+    },
+    "generalized_empirical_formula" : {
+      "@id" : "https://w3id.org/chemrof/generalized_empirical_formula"
+    },
+    "capacidad" : {
+      "@id" : "https://w3id.org/def/lab-ontology#capacidad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "CHEBI_35469" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35469"
+    },
+    "CHEBI_71014" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_71014"
+    },
+    "ProtocoloElectroforesis" : {
+      "@id" : "https://w3id.org/def/lab-ontology#ProtocoloElectroforesis"
+    },
+    "CHEBI_194430" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_194430"
+    },
+    "id" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#id"
+    },
+    "CHEBI_29287" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_29287"
+    },
+    "CHEBI_78548" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_78548"
+    },
+    "CHEBI_23240" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23240"
+    },
+    "CHEBI_90744" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_90744"
+    },
+    "timestamp" : {
+      "@id" : "https://w3id.org/def/lab-ontology#timestamp",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "CHEBI_65191" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_65191"
+    },
+    "CHEBI_176583" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_176583"
+    },
+    "CHEBI_67105" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_67105"
+    },
+    "ReactivoBasico" : {
+      "@id" : "https://w3id.org/def/lab-ontology#ReactivoBasico"
+    },
+    "CHEBI_39316" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39316"
+    },
+    "inSubset" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#inSubset"
+    },
+    "CHEBI_184308" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_184308"
+    },
+    "CHEBI_59752" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59752"
+    },
+    "CHEBI_75763" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_75763"
+    },
+    "homepage" : {
+      "@id" : "http://xmlns.com/foaf/0.1/homepage"
+    },
+    "CHEBI_49326" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_49326"
+    },
+    "CHEBI_67199" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_67199"
+    },
+    "CHEBI_39318" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39318"
+    },
+    "CHEBI_50566" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50566"
+    },
+    "CHEBI_24851" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24851"
+    },
+    "CHEBI_38828" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38828"
+    },
+    "CHEBI_91193" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_91193"
+    },
+    "CHEBI_66956" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_66956"
+    },
+    "CHEBI_71232" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_71232"
+    },
+    "created_by" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#created_by"
+    },
+    "OBI_0200171" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200171"
+    },
+    "CHEBI_48873" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48873"
+    },
+    "CHEBI_50827" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50827"
+    },
+    "CHEBI_53784" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53784"
+    },
+    "CHEBI_50247" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50247"
+    },
+    "CHEBI_63562" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63562"
+    },
+    "charge" : {
+      "@id" : "https://w3id.org/chemrof/charge"
+    },
+    "CHEBI_84087" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_84087"
+    },
+    "CHEBI_131604" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_131604"
+    },
+    "CHEBI_33546" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33546"
+    },
+    "CHEBI_52623" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52623"
+    },
+    "CHEBI_78592" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_78592"
+    },
+    "CHEBI_137684" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_137684"
+    },
+    "CHEBI_39143" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39143"
+    },
+    "OBI_0200152" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200152"
+    },
+    "CHEBI_142184" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_142184"
+    },
+    "estado" : {
+      "@id" : "https://w3id.org/def/lab-ontology#estado",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "CHEBI_184309" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_184309"
+    },
+    "CHEBI_48878" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48878"
+    },
+    "CHEBI_88143" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_88143"
+    },
+    "ERO_0000376" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000376"
+    },
+    "CHEBI_35219" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35219"
+    },
+    "CHEBI_63046" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63046"
+    },
+    "COB_0000020" : {
+      "@id" : "http://purl.obolibrary.org/obo/COB_0000020"
+    },
+    "OBI_0200042" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200042"
+    },
+    "CHEBI_51268" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51268"
+    },
+    "CHEBI_33288" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33288"
+    },
+    "ejecutaReacción" : {
+      "@id" : "https://w3id.org/def/lab-ontology#ejecutaReacción",
+      "@type" : "@id"
+    },
+    "CHEBI_75414" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_75414"
+    },
+    "IAO_0000118" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000118"
+    },
+    "CHEBI_63951" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63951"
+    },
+    "CHEBI_36872" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36872"
+    },
+    "CHEBI_74914" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_74914"
+    },
+    "CHEBI_49325" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_49325"
+    },
+    "CHEBI_60601" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_60601"
+    },
+    "CHEBI_25585" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25585"
+    },
+    "CHEBI_23357" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23357"
+    },
+    "CHEBI_35846" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35846"
+    },
+    "CHEBI_33561" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33561"
+    },
+    "OBI_0200176" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200176"
+    },
+    "CHEBI_50748" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50748"
+    },
+    "CHEBI_137514" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_137514"
+    },
+    "CHEBI_35223" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35223"
+    },
+    "CHEBI_77608" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_77608"
+    },
+    "CHEBI_71031" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_71031"
+    },
+    "CHEBI_234540" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_234540"
+    },
+    "CHEBI_51237" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51237"
+    },
+    "CHEBI_39369" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39369"
+    },
+    "CHEBI_145947" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_145947"
+    },
+    "CHEBI_50103" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50103"
+    },
+    "CHEBI_232337" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_232337"
+    },
+    "CHEBI_36053" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36053"
+    },
+    "hasRelatedSynonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+    },
+    "CHEBI_37930" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37930"
+    },
+    "CHEBI_50408" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50408"
+    },
+    "CHEBI_232417" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_232417"
+    },
+    "CHEBI_51373" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51373"
+    },
+    "frecuenciaEjecucion" : {
+      "@id" : "https://w3id.org/def/lab-ontology#frecuenciaEjecucion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "CHEBI_76916" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76916"
+    },
+    "IAO_0100001" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0100001"
+    },
+    "ReverseTranscriptionPCRProcedure" : {
+      "@id" : "http://purl.org/net/SMARTprotocol#ReverseTranscriptionPCRProcedure"
+    },
+    "CHEBI_33385" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33385"
+    },
+    "CHEBI_48578" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48578"
+    },
+    "CHEBI_33343" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33343"
+    },
+    "CHEBI_139566" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_139566"
+    },
+    "CHEBI_51266" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51266"
+    },
+    "CHEBI_176578" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_176578"
+    },
+    "PasoCargaGel" : {
+      "@id" : "https://w3id.org/def/lab-ontology#PasoCargaGel"
+    },
+    "CHEBI_51374" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51374"
+    },
+    "CHEBI_32777" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32777"
+    },
+    "CHEBI_38157" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38157"
+    },
+    "CHEBI_39456" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39456"
+    },
+    "CHEBI_90709" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_90709"
+    },
+    "IAO_0000114" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000114"
+    },
+    "CHEBI_78804" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_78804"
+    },
+    "CHEBI_66981" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_66981"
+    },
+    "CHEBI_48876" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48876"
+    },
+    "CHEBI_64584" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_64584"
+    },
+    "CHEBI_65207" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_65207"
+    },
+    "CHEBI_38869" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38869"
+    },
+    "CHEBI_29327" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_29327"
+    },
+    "CHEBI_63957" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63957"
+    },
+    "CHEBI_38877" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38877"
+    },
+    "CHEBI_25442" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25442"
+    },
+    "CHEBI_28685" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_28685"
+    },
+    "CHEBI_70774" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_70774"
+    },
+    "CHEBI_59282" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59282"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "CHEBI_134173" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_134173"
+    },
+    "CHEBI_33363" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33363"
+    },
+    "CHEBI_50855" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50855"
+    },
+    "CHEBI_35679" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35679"
+    },
+    "CHEBI_33351" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33351"
+    },
+    "CHEBI_33368" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33368"
+    },
+    "CHEBI_60809" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_60809"
+    },
+    "OBI_0200201" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200201"
+    },
+    "CHEBI_48540" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48540"
+    },
+    "OBI_0200105" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200105"
+    },
+    "CHEBI_23888" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23888"
+    },
+    "CHEBI_38956" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38956"
+    },
+    "CHEBI_82891" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_82891"
+    },
+    "IAO_0000232" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000232"
+    },
+    "CHEBI_71692" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_71692"
+    },
+    "CHEBI_35232" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35232"
+    },
+    "CHEBI_35480" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35480"
+    },
+    "requiereEquipo" : {
+      "@id" : "https://w3id.org/def/lab-ontology#requiereEquipo",
+      "@type" : "@id"
+    },
+    "CHEBI_48360" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48360"
+    },
+    "condicionesExperimentales" : {
+      "@id" : "https://w3id.org/def/lab-ontology#condicionesExperimentales",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "COB_0000077" : {
+      "@id" : "http://purl.obolibrary.org/obo/COB_0000077"
+    },
+    "CHEBI_33345" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33345"
+    },
+    "CHEBI_234268" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_234268"
+    },
+    "CHEBI_233581" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_233581"
+    },
+    "ReactivoAcido" : {
+      "@id" : "https://w3id.org/def/lab-ontology#ReactivoAcido"
+    },
+    "CHEBI_76946" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76946"
+    },
+    "CHEBI_51061" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51061"
+    },
+    "CHEBI_83313" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_83313"
+    },
+    "CHEBI_90710" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_90710"
+    },
+    "CHEBI_66987" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_66987"
+    },
+    "IAO_0000116" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000116"
+    },
+    "OBI_0200184" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200184"
+    },
+    "CHEBI_82632" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_82632"
+    },
+    "CHEBI_90847" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_90847"
+    },
+    "CHEBI_91081" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_91081"
+    },
+    "CHEBI_140602" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_140602"
+    },
+    "CHEBI_77034" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_77034"
+    },
+    "CHEBI_72768" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_72768"
+    },
+    "OBI_0000727" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000727"
+    },
+    "OBI_0002136" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0002136"
+    },
+    "CHEBI_78947" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_78947"
+    },
+    "IAO_0000119" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000119"
+    },
+    "CHEBI_50427" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50427"
+    },
+    "CHEBI_73417" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_73417"
+    },
+    "CHEBI_35640" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35640"
+    },
+    "CHEBI_35941" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35941"
+    },
+    "CHEBI_48358" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48358"
+    },
+    "CHEBI_48675" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48675"
+    },
+    "HousingConditionProcedure" : {
+      "@id" : "http://purl.org/net/SMARTprotocol#HousingConditionProcedure"
+    },
+    "CHEBI_144895" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_144895"
+    },
+    "Class_93" : {
+      "@id" : "http://www.owl-ontologies.com/Ontology1184060740.owl#Class_93"
+    },
+    "CHEBI_38849" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38849"
+    },
+    "CHEBI_138931" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_138931"
+    },
+    "CHEBI_24941" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24941"
+    },
+    "CHEBI_143130" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_143130"
+    },
+    "CHEBI_60798" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_60798"
+    },
+    "CHEBI_90755" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_90755"
+    },
+    "CHEBI_133024" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_133024"
+    },
+    "CHEBI_91079" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_91079"
+    },
+    "CHEBI_63794" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63794"
+    },
+    "CHEBI_38162" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38162"
+    },
+    "CHEBI_141001" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_141001"
+    },
+    "CHEBI_22730" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22730"
+    },
+    "CHEBI_22586" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22586"
+    },
+    "CHEBI_133016" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_133016"
+    },
+    "CHEBI_37961" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37961"
+    },
+    "pOHsolucion" : {
+      "@id" : "https://w3id.org/def/lab-ontology#pOHsolucion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "CHEBI_33289" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33289"
+    },
+    "CHEBI_39379" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39379"
+    },
+    "concentracionNormalidad" : {
+      "@id" : "https://w3id.org/def/lab-ontology#concentracionNormalidad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "Class_23" : {
+      "@id" : "http://www.owl-ontologies.com/Ontology1184060740.owl#Class_23"
+    },
+    "CHEBI_50907" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50907"
+    },
+    "CHEBI_37335" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37335"
+    },
+    "CHEBI_29357" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_29357"
+    },
+    "CHEBI_51370" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51370"
+    },
+    "CHEBI_63114" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63114"
+    },
+    "CHEBI_50919" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50919"
+    },
+    "CHEBI_138015" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_138015"
+    },
+    "CHEBI_76531" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76531"
+    },
+    "CHEBI_73352" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_73352"
+    },
+    "descripcion" : {
+      "@id" : "https://w3id.org/def/lab-ontology#descripcion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "CHEBI_68495" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_68495"
+    },
+    "CHEBI_29431" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_29431"
+    },
+    "Class_92" : {
+      "@id" : "http://www.owl-ontologies.com/Ontology1184060740.owl#Class_92"
+    },
+    "CHEBI_50792" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50792"
+    },
+    "PasoPreparacionMezcla" : {
+      "@id" : "https://w3id.org/def/lab-ontology#PasoPreparacionMezcla"
+    },
+    "CHEBI_35337" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35337"
+    },
+    "ProteinExtractionProcedure" : {
+      "@id" : "http://purl.org/net/SMARTprotocol#ProteinExtractionProcedure"
+    },
+    "CHEBI_35471" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35471"
+    },
+    "CHEBI_78803" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_78803"
+    },
+    "CHEBI_35476" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35476"
+    },
+    "CHEBI_33392" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33392"
+    },
+    "CHEBI_24942" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24942"
+    },
+    "CHEBI_75324" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_75324"
+    },
+    "OBI_0200103" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200103"
+    },
+    "CHEBI_90749" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_90749"
+    },
+    "PolimeraseChainReactionProcedure" : {
+      "@id" : "http://purl.org/net/SMARTprotocol#PolimeraseChainReactionProcedure"
+    },
+    "CHEBI_33341" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33341"
+    },
+    "CHEBI_37956" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37956"
+    },
+    "CHEBI_50843" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50843"
+    },
+    "CHEBI_78361" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_78361"
+    },
+    "CHEBI_73336" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_73336"
+    },
+    "CHEBI_51166" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51166"
+    },
+    "CHEBI_189676" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_189676"
+    },
+    "CHEBI_228237" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_228237"
+    },
+    "OBI_9991118" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_9991118"
+    },
+    "CHEBI_35530" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35530"
+    },
+    "CHEBI_66908" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_66908"
+    },
+    "CHEBI_37887" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37887"
+    },
+    "CHEBI_52620" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52620"
+    },
+    "pHneutro" : {
+      "@id" : "https://w3id.org/def/lab-ontology#pHneutro",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "CHEBI_89161" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_89161"
+    },
+    "OBI_0200155" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200155"
+    },
+    "CHEBI_189683" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_189683"
+    },
+    "CHEBI_62754" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_62754"
+    },
+    "hasOBONamespace" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"
+    },
+    "CHEBI_145438" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_145438"
+    },
+    "CHEBI_23092" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23092"
+    },
+    "CHEBI_63457" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63457"
+    },
+    "PropiedadesQuimicas" : {
+      "@id" : "https://w3id.org/def/lab-ontology#PropiedadesQuimicas"
+    },
+    "CHEBI_77326" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_77326"
+    },
+    "CHEBI_53000" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53000"
+    },
+    "CHEBI_73190" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_73190"
+    },
+    "CHEBI_232316" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_232316"
+    },
+    "CHEBI_48357" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48357"
+    },
+    "CHEBI_53353" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53353"
+    },
+    "CHEBI_50503" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50503"
+    },
+    "CHEBI_78505" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_78505"
+    },
+    "CHEBI_73296" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_73296"
+    },
+    "CHEBI_61966" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_61966"
+    },
+    "CHEBI_37886" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37886"
+    },
+    "ejecutadoPorUsuario" : {
+      "@id" : "https://w3id.org/def/lab-ontology#ejecutadoPorUsuario",
+      "@type" : "@id"
+    },
+    "CHEBI_28112" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_28112"
+    },
+    "CHEBI_232377" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_232377"
+    },
+    "CHEBI_76977" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76977"
+    },
+    "CHEBI_33350" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33350"
+    },
+    "CHEBI_194423" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_194423"
+    },
+    "CHEBI_50514" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50514"
+    },
+    "CHEBI_194187" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_194187"
+    },
+    "resultado" : {
+      "@id" : "https://w3id.org/def/lab-ontology#resultado",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "CHEBI_65259" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_65259"
+    },
+    "OBI_0200075" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200075"
+    },
+    "deprecated" : {
+      "@id" : "http://www.w3.org/2002/07/owl#deprecated"
+    },
+    "caducidadFecha" : {
+      "@id" : "https://w3id.org/def/lab-ontology#caducidadFecha",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "COB_0000116" : {
+      "@id" : "http://purl.obolibrary.org/obo/COB_0000116"
+    },
+    "CHEBI_24028" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24028"
+    },
+    "CHEBI_35523" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35523"
+    },
+    "OBI_0200056" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200056"
+    },
+    "IAO_0000111" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000111"
+    },
+    "CHEBI_33357" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33357"
+    },
+    "requiereSustancia" : {
+      "@id" : "https://w3id.org/def/lab-ontology#requiereSustancia",
+      "@type" : "@id"
+    },
+    "CHEBI_64106" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_64106"
+    },
+    "CHEBI_28694" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_28694"
+    },
+    "CHEBI_51577" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51577"
+    },
+    "ReacciónQuímica" : {
+      "@id" : "https://w3id.org/def/lab-ontology#ReacciónQuímica"
+    },
+    "CHEBI_86029" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_86029"
+    },
+    "CHEBI_33562" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33562"
+    },
+    "CHEBI_77496" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_77496"
+    },
+    "CHEBI_83039" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_83039"
+    },
+    "CHEBI_33286" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33286"
+    },
+    "CHEBI_66980" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_66980"
+    },
+    "OBI_0000861" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000861"
+    },
+    "CHEBI_140165" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_140165"
+    },
+    "CHEBI_74783" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_74783"
+    },
+    "CHEBI_51378" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51378"
+    },
+    "CHEBI_33320" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33320"
+    },
+    "tieneSustancia" : {
+      "@id" : "https://w3id.org/def/lab-ontology#tieneSustancia",
+      "@type" : "@id"
+    },
+    "CHEBI_35497" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35497"
+    },
+    "CHEBI_145515" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_145515"
+    },
+    "CHEBI_232379" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_232379"
+    },
+    "CHEBI_52271" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52271"
+    },
+    "CHEBI_51217" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51217"
+    },
+    "CHEBI_137401" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_137401"
+    },
+    "CHEBI_76595" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76595"
+    },
+    "CHEBI_188147" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_188147"
+    },
+    "almacenamiento" : {
+      "@id" : "https://w3id.org/def/lab-ontology#almacenamiento",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "OBI_0200118" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200118"
+    },
+    "PasoCicloTermico" : {
+      "@id" : "https://w3id.org/def/lab-ontology#PasoCicloTermico"
+    },
+    "ejecutadaPor" : {
+      "@id" : "https://w3id.org/def/lab-ontology#ejecutadaPor",
+      "@type" : "@id"
+    },
+    "CHEBI_64571" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_64571"
+    },
+    "CHEBI_75325" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_75325"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "requiereSustanciaEnPaso" : {
+      "@id" : "https://w3id.org/def/lab-ontology#requiereSustanciaEnPaso",
+      "@type" : "@id"
+    },
+    "CHEBI_63963" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63963"
+    },
+    "CHEBI_52726" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52726"
+    },
+    "CHEBI_49023" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_49023"
+    },
+    "OBI_0200074" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200074"
+    },
+    "CHEBI_63726" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63726"
+    },
+    "pKb" : {
+      "@id" : "https://w3id.org/def/lab-ontology#pKb",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "CHEBI_38941" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38941"
+    },
+    "CHEBI_51452" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51452"
+    },
+    "CHEBI_64857" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_64857"
+    },
+    "CHEBI_90753" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_90753"
+    },
+    "CHEBI_68553" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_68553"
+    },
+    "CHEBI_83146" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_83146"
+    },
+    "CHEBI_68509" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_68509"
+    },
+    "CHEBI_48372" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48372"
+    },
+    "CHEBI_194467" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_194467"
+    },
+    "CHEBI_25512" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25512"
+    },
+    "CHEBI_27026" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27026"
+    },
+    "CHEBI_76971" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76971"
+    },
+    "CHEBI_37957" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37957"
+    },
+    "CHEBI_33396" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33396"
+    },
+    "CHEBI_50741" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50741"
+    },
+    "CHEBI_33052" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33052"
+    },
+    "CHEBI_76998" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76998"
+    },
+    "OBI_0200001" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200001"
+    },
+    "CHEBI_48539" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48539"
+    },
+    "Catalizador" : {
+      "@id" : "https://w3id.org/def/lab-ontology#Catalizador"
+    },
+    "CHEBI_37338" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37338"
+    },
+    "CHEBI_50533" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50533"
+    },
+    "CHEBI_61016" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_61016"
+    },
+    "CHEBI_55350" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_55350"
+    },
+    "CHEBI_30737" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_30737"
+    },
+    "hasSynonymType" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasSynonymType"
+    },
+    "hasAlternativeId" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"
+    },
+    "CHEBI_64477" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_64477"
+    },
+    "CHEBI_32738" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32738"
+    },
+    "CHEBI_77035" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_77035"
+    },
+    "Class_61" : {
+      "@id" : "http://www.owl-ontologies.com/Ontology1184060740.owl#Class_61"
+    },
+    "CHEBI_18248" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_18248"
+    },
+    "CHEBI_50504" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50504"
+    },
+    "CHEBI_35482" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35482"
+    },
+    "CHEBI_63060" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63060"
+    },
+    "CHEBI_35493" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35493"
+    },
+    "CHEBI_35444" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35444"
+    },
+    "CHEBI_50646" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50646"
+    },
+    "CHEBI_33893" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33893"
+    },
+    "CHEBI_33353" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33353"
+    },
+    "CHEBI_35224" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35224"
+    },
+    "CHEBI_36769" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36769"
+    },
+    "CHEBI_232340" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_232340"
+    },
+    "CHEBI_72571" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_72571"
+    },
+    "CHEBI_139155" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_139155"
+    },
+    "CHEBI_85540" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_85540"
+    },
+    "CHEBI_67200" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_67200"
+    },
+    "inchi_string" : {
+      "@id" : "https://w3id.org/chemrof/inchi_string"
+    },
+    "CHEBI_33292" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33292"
+    },
+    "CHEBI_232436" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_232436"
+    },
+    "CHEBI_39378" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39378"
+    },
+    "CHEBI_30512" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_30512"
+    },
+    "CHEBI_133106" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_133106"
+    },
+    "CHEBI_149552" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_149552"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "CHEBI_78298" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_78298"
+    },
+    "CHEBI_77318" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_77318"
+    },
+    "CHEBI_35474" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35474"
+    },
+    "CHEBI_76924" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76924"
+    },
+    "CHEBI_39301" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39301"
+    },
+    "CHEBI_33371" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33371"
+    },
+    "CHEBI_68557" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_68557"
+    },
+    "CHEBI_194137" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_194137"
+    },
+    "fechaCreacion" : {
+      "@id" : "https://w3id.org/def/lab-ontology#fechaCreacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "CHEBI_33393" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33393"
+    },
+    "CHEBI_37334" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37334"
+    },
+    "CHEBI_60605" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_60605"
+    },
+    "CHEBI_35231" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35231"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "CHEBI_70724" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_70724"
+    },
+    "CHEBI_189684" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_189684"
+    },
+    "CHEBI_48561" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48561"
+    },
+    "CHEBI_52206" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52206"
+    },
+    "ProtocolStep" : {
+      "@id" : "https://w3id.org/def/lab-ontology#ProtocolStep"
+    },
+    "CHEBI_194153" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_194153"
+    },
+    "CHEBI_140160" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_140160"
+    },
+    "CHEBI_22977" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22977"
+    },
+    "CHEBI_146246" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_146246"
+    },
+    "CHEBI_77495" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_77495"
+    },
+    "CHEBI_25212" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25212"
+    },
+    "CHEBI_73618" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_73618"
+    },
+    "CHEBI_59163" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59163"
+    },
+    "CHEBI_134225" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_134225"
+    },
+    "CHEBI_195542" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_195542"
+    },
+    "CHEBI_59864" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59864"
+    },
+    "CHEBI_49159" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_49159"
+    },
+    "CHEBI_46887" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_46887"
+    },
+    "CHEBI_64155" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_64155"
+    },
+    "CHEBI_35481" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35481"
+    },
+    "CHEBI_76969" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76969"
+    },
+    "CHEBI_74136" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_74136"
+    },
+    "CHEBI_59740" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59740"
+    },
+    "IAO_0000233" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000233"
+    },
+    "CampanaFlujoLaminar" : {
+      "@id" : "https://w3id.org/def/lab-ontology#CampanaFlujoLaminar"
+    },
+    "CHEBI_82655" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_82655"
+    },
+    "CHEBI_50837" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50837"
+    },
+    "CHEBI_26130" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26130"
+    },
+    "CHEBI_62801" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_62801"
+    },
+    "CHEBI_173085" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_173085"
+    },
+    "Class_90" : {
+      "@id" : "http://www.owl-ontologies.com/Ontology1184060740.owl#Class_90"
+    },
+    "CHEBI_35526" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35526"
+    },
+    "OBI_0000739" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000739"
+    },
+    "CHEBI_51065" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51065"
+    },
+    "BalanzaAnalitica" : {
+      "@id" : "https://w3id.org/def/lab-ontology#BalanzaAnalitica"
+    },
+    "version" : {
+      "@id" : "https://w3id.org/def/lab-ontology#version"
+    },
+    "CHEBI_39412" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39412"
+    },
+    "CHEBI_38632" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38632"
+    },
+    "CHEBI_144829" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_144829"
+    },
+    "CHEBI_24850" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24850"
+    },
+    "CHEBI_35498" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35498"
+    },
+    "CHEBI_90846" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_90846"
+    },
+    "CHEBI_25195" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25195"
+    },
+    "CHEBI_73319" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_73319"
+    },
+    "CHEBI_64054" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_64054"
+    },
+    "CHEBI_90708" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_90708"
+    },
+    "CHEBI_50177" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50177"
+    },
+    "ProtocoloMedicionAbsorbancia" : {
+      "@id" : "https://w3id.org/def/lab-ontology#ProtocoloMedicionAbsorbancia"
+    },
+    "CHEBI_24432" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24432"
+    },
+    "CHEBI_33340" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33340"
+    },
+    "CHEBI_33346" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33346"
+    },
+    "usadoEn" : {
+      "@id" : "https://w3id.org/def/lab-ontology#usadoEn",
+      "@type" : "@id"
+    },
+    "Reaccion" : {
+      "@id" : "https://w3id.org/def/lab-ontology#Reaccion"
+    },
+    "CHEBI_49110" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_49110"
+    },
+    "CHEBI_50242" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50242"
+    },
+    "CHEBI_55323" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_55323"
+    },
+    "CHEBI_229460" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_229460"
+    },
+    "CHEBI_60599" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_60599"
+    },
+    "CHEBI_48887" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48887"
+    },
+    "CHEBI_60598" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_60598"
+    },
+    "CHEBI_51383" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51383"
+    },
+    "CHEBI_33364" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33364"
+    },
+    "CHEBI_46886" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_46886"
+    },
+    "CHEBI_65265" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_65265"
+    },
+    "OBI_0200141" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200141"
+    },
+    "CHEBI_75768" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_75768"
+    },
+    "CHEBI_29430" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_29430"
+    },
+    "CHEBI_51121" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51121"
+    },
+    "OBI_0001872" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0001872"
+    },
+    "CHEBI_60646" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_60646"
+    },
+    "CHEBI_50751" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50751"
+    },
+    "participaEn" : {
+      "@id" : "https://w3id.org/def/lab-ontology#participaEn",
+      "@type" : "@id"
+    },
+    "CHEBI_33394" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33394"
+    },
+    "OBI_0200102" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200102"
+    },
+    "CHEBI_59680" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59680"
+    },
+    "CHEBI_50410" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50410"
+    },
+    "CHEBI_63054" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63054"
+    },
+    "CHEBI_83075" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_83075"
+    },
+    "CHEBI_72311" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_72311"
+    },
+    "CHEBI_176575" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_176575"
+    },
+    "date" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#date"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "CHEBI_47868" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_47868"
+    },
+    "CHEBI_35674" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35674"
+    },
+    "CHEBI_139503" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_139503"
+    },
+    "CHEBI_50846" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50846"
+    },
+    "CHEBI_59283" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59283"
+    },
+    "CHEBI_33100" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33100"
+    },
+    "Class_56" : {
+      "@id" : "http://www.owl-ontologies.com/Ontology1184060740.owl#Class_56"
+    },
+    "CHEBI_51382" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51382"
+    },
+    "CHEBI_142185" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_142185"
+    },
+    "CHEBI_59229" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59229"
+    },
+    "CHEBI_131795" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_131795"
+    },
+    "CHEBI_192808" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_192808"
+    },
+    "CHEBI_37890" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37890"
+    },
+    "CHEBI_49103" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_49103"
+    },
+    "CHEBI_33547" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33547"
+    },
+    "CHEBI_22368" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22368"
+    },
+    "CHEBI_32772" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32772"
+    },
+    "CHEBI_231732" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_231732"
+    },
+    "CHEBI_18291" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_18291"
+    },
+    "CHEBI_64102" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_64102"
+    },
+    "CHEBI_52941" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52941"
+    },
+    "CHEBI_231878" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_231878"
+    },
+    "CHEBI_67198" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_67198"
+    },
+    "OBI_0200045" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200045"
+    },
+    "CHEBI_86264" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_86264"
+    },
+    "CHEBI_61026" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_61026"
+    },
+    "CHEBI_33904" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33904"
+    },
+    "Sustancia" : {
+      "@id" : "https://w3id.org/def/lab-ontology#Sustancia"
+    },
+    "CHEBI_146270" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_146270"
+    },
+    "CHEBI_50739" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50739"
+    },
+    "OBI_0200154" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200154"
+    },
+    "CHEBI_33395" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33395"
+    },
+    "OBI_0200041" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200041"
+    },
+    "CHEBI_76413" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76413"
+    },
+    "SIO_000999" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000999"
+    },
+    "IAO_0000412" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000412"
+    },
+    "CHEBI_50513" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50513"
+    },
+    "CHEBI_26842" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26842"
+    },
+    "Class_60" : {
+      "@id" : "http://www.owl-ontologies.com/Ontology1184060740.owl#Class_60"
+    },
+    "CHEBI_35942" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35942"
+    },
+    "modeloEquipo" : {
+      "@id" : "https://w3id.org/def/lab-ontology#modeloEquipo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "CHEBI_83038" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_83038"
+    },
+    "CHEBI_73182" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_73182"
+    },
+    "CHEBI_60575" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_60575"
+    },
+    "CHEBI_49666" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_49666"
+    },
+    "CHEBI_52460" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52460"
+    },
+    "CHEBI_73413" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_73413"
+    },
+    "CHEBI_65057" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_65057"
+    },
+    "CHEBI_78675" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_78675"
+    },
+    "CHEBI_33356" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33356"
+    },
+    "CHEBI_232530" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_232530"
+    },
+    "CHEBI_62873" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_62873"
+    },
+    "CHEBI_78623" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_78623"
+    },
+    "CHEBI_73668" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_73668"
+    },
+    "saved-by" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#saved-by"
+    },
+    "CHEBI_83074" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_83074"
+    },
+    "CHEBI_72470" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_72470"
+    },
+    "CHEBI_71338" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_71338"
+    },
+    "CHEBI_50188" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50188"
+    },
+    "CHEBI_35569" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35569"
+    },
+    "mass" : {
+      "@id" : "https://w3id.org/chemrof/mass"
+    },
+    "CHEBI_35470" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35470"
+    },
+    "CHEBI_73913" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_73913"
+    },
+    "CHEBI_29808" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_29808"
+    },
+    "CHEBI_64338" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_64338"
+    },
+    "Investigador" : {
+      "@id" : "https://w3id.org/def/lab-ontology#Investigador"
+    },
+    "Micropipeta" : {
+      "@id" : "https://w3id.org/def/lab-ontology#Micropipeta"
+    },
+    "CHEBI_233336" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_233336"
+    },
+    "CHEBI_232424" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_232424"
+    },
+    "CHEBI_184304" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_184304"
+    },
+    "CHEBI_228347" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_228347"
+    },
+    "CHEBI_63490" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63490"
+    },
+    "CHEBI_50949" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50949"
+    },
+    "EnzymaticAmplificationProcedure" : {
+      "@id" : "http://purl.org/net/SMARTprotocol#EnzymaticAmplificationProcedure"
+    },
+    "CHEBI_48422" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48422"
+    },
+    "pHsolucion" : {
+      "@id" : "https://w3id.org/def/lab-ontology#pHsolucion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "CHEBI_50684" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50684"
+    },
+    "InfectionProcedure" : {
+      "@id" : "http://purl.org/net/SMARTprotocol#InfectionProcedure"
+    },
+    "CHEBI_25573" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25573"
+    },
+    "CHEBI_39259" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39259"
+    },
+    "CHEBI_85046" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_85046"
+    },
+    "CHEBI_231761" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_231761"
+    },
+    "CHEBI_73311" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_73311"
+    },
+    "CHEBI_26645" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26645"
+    },
+    "CHEBI_85384" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_85384"
+    },
+    "CHEBI_55324" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_55324"
+    },
+    "CHEBI_35841" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35841"
+    },
+    "Analisis" : {
+      "@id" : "https://w3id.org/def/lab-ontology#Analisis"
+    },
+    "CHEBI_232420" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_232420"
+    },
+    "hasOBOFormatVersion" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion"
+    },
+    "AmplificaciónPCR" : {
+      "@id" : "https://w3id.org/def/lab-ontology#AmplificaciónPCR"
+    },
+    "IAO_0000600" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000600"
+    },
+    "CHEBI_82623" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_82623"
+    },
+    "CHEBI_75771" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_75771"
+    },
+    "CHEBI_139109" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_139109"
+    },
+    "CHEBI_131186" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_131186"
+    },
+    "CHEBI_232301" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_232301"
+    },
+    "CHEBI_66991" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_66991"
+    },
+    "CHEBI_232406" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_232406"
+    },
+    "CHEBI_33362" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33362"
+    },
+    "CHEBI_28301" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_28301"
+    },
+    "CHEBI_51451" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51451"
+    },
+    "CHEBI_48425" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48425"
+    },
+    "CHEBI_184306" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_184306"
+    },
+    "CHEBI_22581" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22581"
+    },
+    "CHEBI_50141" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50141"
+    },
+    "COB_0000014" : {
+      "@id" : "http://purl.obolibrary.org/obo/COB_0000014"
+    },
+    "CHEBI_35678" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35678"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "CHEBI_90414" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_90414"
+    },
+    "CHEBI_72575" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_72575"
+    },
+    "CHEBI_59174" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59174"
+    },
+    "CHEBI_72316" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_72316"
+    },
+    "CHEBI_38456" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38456"
+    },
+    "CHEBI_83296" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_83296"
+    },
+    "CHEBI_140535" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_140535"
+    },
+    "hasDbXref" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+    },
+    "smiles_string" : {
+      "@id" : "https://w3id.org/chemrof/smiles_string"
+    },
+    "CHEBI_76648" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76648"
+    },
+    "OBI_0200123" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200123"
+    },
+    "CHEBI_59132" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59132"
+    },
+    "CHEBI_66993" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_66993"
+    },
+    "CHEBI_39415" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39415"
+    },
+    "CHEBI_35717" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35717"
+    },
+    "OBI_0200051" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200051"
+    },
+    "CHEBI_25944" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25944"
+    },
+    "CHEBI_35230" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35230"
+    },
+    "CHEBI_52619" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52619"
+    },
+    "formula" : {
+      "@id" : "https://w3id.org/def/lab-ontology#formula",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "RNAExtractionProcedure" : {
+      "@id" : "http://purl.org/net/SMARTprotocol#RNAExtractionProcedure"
+    },
+    "CHEBI_35554" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35554"
+    },
+    "CHEBI_50267" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50267"
+    },
+    "CHEBI_70725" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_70725"
+    },
+    "OBI_0200104" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200104"
+    },
+    "CHEBI_75298" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_75298"
+    },
+    "Protocolo" : {
+      "@id" : "https://w3id.org/def/lab-ontology#Protocolo"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/terms/contributor"
+    },
+    "CHEBI_88048" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_88048"
+    },
+    "CHEBI_79046" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_79046"
+    },
+    "CHEBI_33342" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33342"
+    },
+    "CHEBI_76507" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76507"
+    },
+    "CHEBI_33287" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33287"
+    },
+    "CHEBI_33544" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33544"
+    },
+    "CHEBI_140482" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_140482"
+    },
+    "OBI_0000673" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000673"
+    },
+    "CHEBI_38867" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38867"
+    },
+    "CHEBI_17891" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17891"
+    },
+    "OBI_0002585" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0002585"
+    },
+    "CHEBI_35222" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35222"
+    },
+    "CHEBI_64176" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_64176"
+    },
+    "CHEBI_22695" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22695"
+    },
+    "CHEBI_13193" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_13193"
+    },
+    "CHEBI_70709" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_70709"
+    },
+    "CHEBI_144987" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_144987"
+    },
+    "CHEBI_62868" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_62868"
+    },
+    "CHEBI_30687" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_30687"
+    },
+    "CHEBI_63533" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63533"
+    },
+    "CHEBI_77161" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_77161"
+    },
+    "CHEBI_35477" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35477"
+    },
+    "CHEBI_52216" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52216"
+    },
+    "CHEBI_35197" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35197"
+    },
+    "CHEBI_25728" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25728"
+    },
+    "CHEBI_35620" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35620"
+    },
+    "CHEBI_77715" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_77715"
+    },
+    "CHEBI_67072" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_67072"
+    },
+    "LaboratoryProcedure" : {
+      "@id" : "http://purl.org/net/SMARTprotocol#LaboratoryProcedure"
+    },
+    "CHEBI_228138" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_228138"
+    },
+    "CHEBI_48560" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48560"
+    },
+    "CHEBI_130181" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_130181"
+    },
+    "CHEBI_60816" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_60816"
+    },
+    "CHEBI_38161" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38161"
+    },
+    "CHEBI_75767" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_75767"
+    },
+    "CHEBI_35524" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35524"
+    },
+    "CHEBI_139180" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_139180"
+    },
+    "CHEBI_59941" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59941"
+    },
+    "OBI_0200079" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200079"
+    },
+    "CHEBI_27334" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27334"
+    },
+    "AnimalEuthanizationProcedure" : {
+      "@id" : "http://purl.org/net/SMARTprotocol#AnimalEuthanizationProcedure"
+    },
+    "CHEBI_50733" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50733"
+    },
+    "CHEBI_51060" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51060"
+    },
+    "CHEBI_51267" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51267"
+    },
+    "CHEBI_35488" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35488"
+    },
+    "CHEBI_66900" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_66900"
+    },
+    "CHEBI_131790" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_131790"
+    },
+    "CHEBI_39141" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39141"
+    },
+    "CHEBI_36333" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36333"
+    },
+    "CHEBI_26013" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26013"
+    },
+    "CHEBI_78547" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_78547"
+    },
+    "CHEBI_194154" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_194154"
+    },
+    "CHEBI_51367" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51367"
+    },
+    "CHEBI_76498" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76498"
+    },
+    "OBI_0200035" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200035"
+    },
+    "CHEBI_38060" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38060"
+    },
+    "CHEBI_233423" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_233423"
+    },
+    "CHEBI_50507" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50507"
+    },
+    "duracion" : {
+      "@id" : "https://w3id.org/def/lab-ontology#duracion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "CHEBI_39276" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_39276"
+    },
+    "TecnicoLaboratorio" : {
+      "@id" : "https://w3id.org/def/lab-ontology#TecnicoLaboratorio"
+    },
+    "OBI_0200000" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200000"
+    },
+    "CHEBI_62914" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_62914"
+    },
+    "CHEBI_137736" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_137736"
+    },
+    "CHEBI_51087" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51087"
+    },
+    "CHEBI_59727" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59727"
+    },
+    "CHEBI_73334" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_73334"
+    },
+    "CHEBI_35623" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35623"
+    },
+    "CHEBI_48279" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48279"
+    },
+    "CHEBI_23582" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23582"
+    },
+    "CHEBI_38231" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38231"
+    },
+    "CHEBI_78433" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_78433"
+    },
+    "CHEBI_15022" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_15022"
+    },
+    "CHEBI_48668" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48668"
+    },
+    "CHEBI_85234" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_85234"
+    },
+    "CHEBI_27363" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27363"
+    },
+    "CHEBI_76964" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76964"
+    },
+    "CHEBI_50409" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50409"
+    },
+    "CHEBI_51376" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51376"
+    },
+    "CHEBI_62215" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_62215"
+    },
+    "CHEBI_17977" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17977"
+    },
+    "CHEBI_76956" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76956"
+    },
+    "contienePaso" : {
+      "@id" : "https://w3id.org/def/lab-ontology#contienePaso",
+      "@type" : "@id"
+    },
+    "CHEBI_77853" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_77853"
+    },
+    "CHEBI_132710" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_132710"
+    },
+    "CHEBI_26115" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26115"
+    },
+    "CHEBI_234102" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_234102"
+    },
+    "CHEBI_33337" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33337"
+    },
+    "CHEBI_29309" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_29309"
+    },
+    "CHEBI_77973" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_77973"
+    },
+    "pKa" : {
+      "@id" : "https://w3id.org/def/lab-ontology#pKa",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "CHEBI_33387" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33387"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "CHEBI_233500" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_233500"
+    },
+    "CHEBI_228139" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_228139"
+    },
+    "Usuario" : {
+      "@id" : "https://w3id.org/def/lab-ontology#Usuario"
+    },
+    "CHEBI_33366" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33366"
+    },
+    "CHEBI_59683" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59683"
+    },
+    "CHEBI_183050" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_183050"
+    },
+    "COB_0000073" : {
+      "@id" : "http://purl.obolibrary.org/obo/COB_0000073"
+    },
+    "CHEBI_64154" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_64154"
+    },
+    "CHEBI_29425" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_29425"
+    },
+    "CHEBI_53431" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_53431"
+    },
+    "CHEBI_74529" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_74529"
+    },
+    "CHEBI_145047" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_145047"
+    },
+    "CHEBI_37336" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37336"
+    },
+    "CHEBI_233291" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_233291"
+    },
+    "CHEBI_88336" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_88336"
+    },
+    "CHEBI_50433" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50433"
+    },
+    "CHEBI_136580" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_136580"
+    },
+    "CHEBI_22153" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22153"
+    },
+    "CHEBI_73310" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_73310"
+    },
+    "CHEBI_15817" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_15817"
+    },
+    "Class_111" : {
+      "@id" : "http://www.owl-ontologies.com/Ontology1184060740.owl#Class_111"
+    },
+    "Centrifuga" : {
+      "@id" : "https://w3id.org/def/lab-ontology#Centrifuga"
+    },
+    "CHEBI_132272" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_132272"
+    },
+    "CHEBI_38870" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38870"
+    },
+    "CHEBI_51177" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51177"
+    },
+    "CHEBI_139521" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_139521"
+    },
+    "CHEBI_62049" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_62049"
+    },
+    "inchi_key_string" : {
+      "@id" : "https://w3id.org/chemrof/inchi_key_string"
+    },
+    "CHEBI_38147" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38147"
+    },
+    "Class_112" : {
+      "@id" : "http://www.owl-ontologies.com/Ontology1184060740.owl#Class_112"
+    },
+    "OBI_0200200" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0200200"
+    },
+    "COB_0000032" : {
+      "@id" : "http://purl.obolibrary.org/obo/COB_0000032"
+    },
+    "CHEBI_33280" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33280"
+    },
+    "CHEBI_232403" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_232403"
+    },
+    "CHEBI_35225" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35225"
+    },
+    "CHEBI_52208" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_52208"
+    },
+    "stepOrder" : {
+      "@id" : "https://w3id.org/def/lab-ontology#stepOrder",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "CHEBI_51366" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51366"
+    },
+    "CHEBI_48354" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_48354"
+    },
+    "CHEBI_33521" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33521"
+    },
+    "CHEBI_167523" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_167523"
+    },
+    "CHEBI_73191" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_73191"
+    },
+    "CHEBI_76206" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_76206"
+    },
+    "IAO_0000115" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+    },
+    "CHEBI_50671" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50671"
+    }
+  }
+}
