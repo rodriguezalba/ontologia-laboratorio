@@ -21,3 +21,5 @@ CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - RDF/XML: https://raw.githubusercontent.com/tu-usuario/lab-ontology/main/lab_ontology_complete.rdf
 
 [**Ver Ontología Interactiva en WebVOWL**](https://rodriguezalba.github.io/ontologia-laboratorio/doc/webvowl/?file=doc/webvowl/data/lab_ontology.json)
+
+https://rodriguezalba.github.io/ontologia-laboratorio/doc/webvowl/?file=doc/webvowl/data/lab_ontology.json
