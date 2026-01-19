@@ -20,4 +20,4 @@ CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - Turtle: https://raw.githubusercontent.com/tu-usuario/lab-ontology/main/lab_ontology_complete.ttl
 - RDF/XML: https://raw.githubusercontent.com/tu-usuario/lab-ontology/main/lab_ontology_complete.rdf
 
-[**Ver Ontología Interactiva en WebVOWL**](https://service.tib.eu/webvowl/?file=https://raw.githubusercontent.com/rodriguezalba/ontologia-laboratorio/main/doc/webvowl/data/lab_ontology_complete.ttl)
+[**Ver Ontología Interactiva en WebVOWL**](https://rodriguezalba.github.io/ontologia-laboratorio/doc/webvowl/?file=doc/webvowl/data/lab_ontology.json)
