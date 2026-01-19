@@ -17,5 +17,5 @@ https://github.com/tu-usuario/lab-ontology
 CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 
 ## Serializations
-- Turtle: https://raw.githubusercontent.com/tu-usuario/lab-ontology/main/ontology_lab_complete.ttl
-- RDF/XML: https://raw.githubusercontent.com/tu-usuario/lab-ontology/main/ontology_lab_complete.rdf
+- Turtle: https://raw.githubusercontent.com/tu-usuario/lab-ontology/main/lab_ontology_complete.ttl
+- RDF/XML: https://raw.githubusercontent.com/tu-usuario/lab-ontology/main/lab_ontology_complete.rdf
