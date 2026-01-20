@@ -21,3 +21,5 @@ CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - RDF/XML: https://raw.githubusercontent.com/rodriguezalba/lab-ontology/main/lab_ontology_complete.rdf
 
 [![Ver Ontología en WebVOWL](https://img.shields.io/badge/Ver%20Ontolog%C3%ADa-WebVOWL-blue?style=for-the-badge&logo=github)](https://rodriguezalba.github.io/ontologia-laboratorio/doc/webvowl/?file=doc/webvowl/data/lab_ontology.json)
+
+![Conceptualización Lab Ontology](ConceptualizationChowk_Leire_Alba.drawio.svg)
